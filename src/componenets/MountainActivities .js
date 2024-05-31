@@ -18,12 +18,15 @@ const MountainActivities = () => {
               <h2 style={{ fontFamily: 'cursive', color: 'skyblue', textTransform: 'lowercase', margin: '0' }}>activities</h2>        
             </div>
           </div>
-          <div className="col-md-6 ">
-            <h2 style={{ fontFamily: 'cursive', }}>MOUNTAINEERING</h2>
+          <div className="col-md-6">
+            <h2 style={{ fontFamily: 'cursive', marginBottom: '10px' }}>MOUNTAINEERING</h2>
             <h2 style={{ fontFamily: 'cursive', marginBottom: '20px' }}>ICE CLIMBING</h2>
-            <p style={{ marginBottom: '40px' }}>This topic will be an exclusive one that will provide you the answers of Guess Their Answer. Name some mountain activities. This game is developed for iOS devices and it becomes famous in mind games.</p>
-            <hr></hr>
-      <div className="row">
+            <p style={{ marginBottom: '40px' }}>
+              This topic will be an exclusive one that will provide you the answers of Guess Their Answer. Name some mountain activities. 
+              This game is developed for iOS devices and it becomes famous in mind games.
+            </p>
+            <hr style={{ marginBottom: '30px' }}/>
+            <div className="row">
               <div className="col-md-6 text-left">
                 <p className="mb-1" style={{ marginBottom: '30px' }}><strong>Start Date:</strong> April 15</p>
                 <p className="mb-1" style={{ marginBottom: '30px' }}><strong>Price:</strong> $900</p>

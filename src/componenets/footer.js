@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="col-md-6 d-flex justify-content-end">
             <div className="row">
               <div className="col">
-                <h5>Column 1</h5>
+                <h5>Column </h5>
                 <ul className="list-unstyled">
                   <li><a href="#" className="text-dark">Link 1</a></li>
                   <li><a href="#" className="text-dark">Link 2</a></li>
@@ -23,7 +23,7 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="col">
-                <h5>Column 2</h5>
+                <h5>Column </h5>
                 <ul className="list-unstyled">
                   <li><a href="#" className="text-dark">Link 4</a></li>
                   <li><a href="#" className="text-dark">Link 5</a></li>
@@ -31,7 +31,7 @@ const Footer = () => {
                 </ul>
               </div>
               <div className="col">
-                <h5>Column 3</h5>
+                <h5>Column </h5>
                 <ul className="list-unstyled">
                   <li><a href="#" className="text-dark">Link 7</a></li>
                   <li><a href="#" className="text-dark">Link 8</a></li>
