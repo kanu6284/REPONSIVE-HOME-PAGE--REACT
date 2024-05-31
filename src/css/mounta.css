@@ -1,0 +1,42 @@
+/* App.css */
+body {
+    background-color: black;
+    color: white;
+  }
+  
+  .img-rounded {
+    border-radius: 50%;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .img-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  h2 {
+    font-family: 'MOUNTAINEERING';
+  }
+  
+  .container {
+    padding-top: 20px;
+  }
+  
+
+
+
+  .card-container {
+    display: flex;
+    justify-content: center; 
+    gap: 150px; 
+    padding: 20px;
+  }
+  
+  .card {
+    width: 18rem;
+    text-align: center;
+    border: none;
+    margin-bottom: 20px; 
+  }
+  

@@ -1,0 +1,152 @@
+/*footer */
+.footer {
+    background-color: #ffffff;
+    color: #000000;
+  }
+  
+  .footer-logo {
+    width: 150px;
+  }
+  
+  .footer .col h5 {
+    color: #000000;
+    margin-bottom: 1rem;
+  }
+  
+  .footer .col ul {
+    padding-left: 0;
+    list-style-type: none;
+  }
+  
+  .footer .col ul li {
+    margin-bottom: 0.5rem;
+  }
+  
+  .footer .col ul li a {
+    color: #000000;
+    text-decoration: none;
+  }
+  
+  .footer .col ul li a:hover {
+    text-decoration: underline;
+  }
+  /*logo css*/
+  .navbar-brand {
+    font-family:cursive;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    color: '#87CEEB'; 
+  }
+  
+  .navbar-brand:hover {
+    color: darkblue; 
+  }
+  
+  /*card */
+  .container {
+    padding-left: -100px; 
+  }
+  
+  .main-heading {
+    color: black;
+    font-size: 2rem; 
+    text-align: left; 
+    margin-bottom: 20px;
+    font-weight: 400;
+    margin-left: 0;
+    margin-top: 50px;
+  }
+  
+  .card-container {
+    display: flex;
+    justify-content: center;
+    gap: 150px; 
+    padding: 20px;
+  }
+  
+  .card {
+    width: 18rem;
+    text-align: center;
+    border: none; 
+  }
+  
+  .card-img-top {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+  
+  .rounded-circle {
+    border-radius: 50%;
+  }
+  
+  .card-body {
+    margin-top: 10px;
+  }
+  
+  .card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .main-hea{
+    font-weight: 700;
+  }
+  .h6{
+    padding-bottom: 0%;
+    font-weight: 500;
+  }
+ 
+.main-heading, .main-hea {
+  display: flex;
+  align-items: center;
+}
+
+.main-heading svg, .main-hea svg {
+  margin-right: 10px; 
+}
+
+
+.container h1.main-heading,
+.container h1.main-hea {
+  text-align: left;
+}
+
+  
+.su-he{
+    margin-top: 10px;
+    margin-bottom: 28px;
+    font-weight: 500;
+}
+
+
+
+/* Custom styling for blue dots */
+.img-container {
+  position: relative;
+}
+
+.blue-dots {
+  position: absolute;
+  bottom: -10px;
+  left: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.blue-dots span {
+  width: 10px;
+  height: 10px;
+  background-color: skyblue;
+  border-radius: 50%;
+  margin-bottom: 5px;
+}
+
+.blue-dots span:last-child {
+  margin-bottom: 0;
+}
